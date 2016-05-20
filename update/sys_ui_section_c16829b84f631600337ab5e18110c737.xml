@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Project References" section_id="c16829b84f631600337ab5e18110c737" sys_domain="global" table="x_43438_beyondzero_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>joint_venture</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 05:17:29</sys_created_on>
+            <sys_id>4f4ea93c4f631600337ab5e18110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project References" display_value="Project References" name="x_43438_beyondzero_table" sys_domain="global" view="Default view">c16829b84f631600337ab5e18110c737</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 05:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reported_by</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 05:17:29</sys_created_on>
+            <sys_id>cf4ea93c4f631600337ab5e18110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project References" display_value="Project References" name="x_43438_beyondzero_table" sys_domain="global" view="Default view">c16829b84f631600337ab5e18110c737</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 05:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 05:17:29</sys_created_on>
+            <sys_id>434ea93c4f631600337ab5e18110c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project References" display_value="Project References" name="x_43438_beyondzero_table" sys_domain="global" view="Default view">c16829b84f631600337ab5e18110c737</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 05:17:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>immediate_supervisor</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 05:17:29</sys_created_on>
+            <sys_id>c34ea93c4f631600337ab5e18110c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project References" display_value="Project References" name="x_43438_beyondzero_table" sys_domain="global" view="Default view">c16829b84f631600337ab5e18110c737</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 05:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_employees_supervised</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 05:17:29</sys_created_on>
+            <sys_id>474ea93c4f631600337ab5e18110c725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project References" display_value="Project References" name="x_43438_beyondzero_table" sys_domain="global" view="Default view">c16829b84f631600337ab5e18110c737</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 05:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Project References</caption>
+            <header>false</header>
+            <name>x_43438_beyondzero_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 04:51:40</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c16829b84f631600337ab5e18110c737</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Project References</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BeyondZero" source="x_43438_beyondzero">aaf4a5f44f631600337ab5e18110c779</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BeyondZero">aaf4a5f44f631600337ab5e18110c779</sys_scope>
+            <sys_update_name>sys_ui_section_c16829b84f631600337ab5e18110c737</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 04:51:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

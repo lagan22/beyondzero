@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="jacobs_office_field_staff" label="Jacobs Office / Field Staff" language="en" table="x_43438_beyondzero_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>jacobs_office_field_staff</element>
+            <help/>
+            <hint/>
+            <label>Jacobs Office / Field Staff</label>
+            <language>en</language>
+            <name>x_43438_beyondzero_table</name>
+            <plural>Jacobs Office / Field Staffs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 04:42:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6c5669784f631600337ab5e18110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Jacobs Office / Field Staff</sys_name>
+            <sys_package display_value="BeyondZero" source="x_43438_beyondzero">aaf4a5f44f631600337ab5e18110c779</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BeyondZero">aaf4a5f44f631600337ab5e18110c779</sys_scope>
+            <sys_update_name>sys_documentation_x_43438_beyondzero_table_jacobs_office_field_staff_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 04:42:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

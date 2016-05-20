@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="second_level_supervisor" label="Second Level Supervisor" language="en" table="x_43438_beyondzero_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>second_level_supervisor</element>
+            <help/>
+            <hint/>
+            <label>Second Level Supervisor</label>
+            <language>en</language>
+            <name>x_43438_beyondzero_table</name>
+            <plural>Second Level Supervisors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 04:56:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>27696db84f631600337ab5e18110c7c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Second Level Supervisor</sys_name>
+            <sys_package display_value="BeyondZero" source="x_43438_beyondzero">aaf4a5f44f631600337ab5e18110c779</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BeyondZero">aaf4a5f44f631600337ab5e18110c779</sys_scope>
+            <sys_update_name>sys_documentation_x_43438_beyondzero_table_second_level_supervisor_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 04:56:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

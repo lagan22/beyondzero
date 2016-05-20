@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Beyond Zero - Incidents" section_id="e7ada53c4f631600337ab5e18110c7ad" sys_domain="global" table="x_43438_beyondzero_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 05:15:16</sys_created_on>
+            <sys_id>eecde53c4f631600337ab5e18110c774</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Beyond Zero - Incidents" display_value="Beyond Zero - Incidents" name="x_43438_beyondzero_table" sys_domain="global" view="Default view">e7ada53c4f631600337ab5e18110c7ad</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 05:15:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Beyond Zero - Incidents</caption>
+            <header>false</header>
+            <name>x_43438_beyondzero_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-20 05:14:47</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7ada53c4f631600337ab5e18110c7ad</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Beyond Zero - Incidents</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BeyondZero" source="x_43438_beyondzero">aaf4a5f44f631600337ab5e18110c779</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BeyondZero">aaf4a5f44f631600337ab5e18110c779</sys_scope>
+            <sys_update_name>sys_ui_section_e7ada53c4f631600337ab5e18110c7ad</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-20 05:15:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

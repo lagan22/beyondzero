@@ -1,4 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" extends="task" label="Beyondzero Table" max_length="40" name="x_43438_beyondzero_table" type="collection"/>
+    <element attributes="live_feed=true" extends="task" label="Beyondzero Table" max_length="40" name="x_43438_beyondzero_table" type="collection">
+        <element label="Age" max_length="40" name="age" type="string"/>
+        <element choice="1" label="Alcohol Test Performed" max_length="40" name="alcohol_test_performed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Permitted" sequence="2" value="Not Permitted"/>
+            </choice>
+        </element>
+        <element label="Assigned performance unit" max_length="40" name="assigned_performance_unit" type="string"/>
+        <element label="Date Reported" max_length="40" name="date_reported" type="glide_date"/>
+        <element label="Date / Time of Incident" max_length="40" name="date_time_of_incident" type="glide_date_time"/>
+        <element choice="1" label="Department of the affected" max_length="40" name="department_of_the_affected" type="string">
+            <choice>
+                <element label="Accounting" sequence="0" value="Accounting"/>
+                <element label="Corporate Services" sequence="1" value="Corporate Services"/>
+                <element label="Field Services" sequence="2" value="Field Services"/>
+                <element label="Finance" sequence="3" value="Finance"/>
+                <element label="HSE" sequence="4" value="HSE"/>
+                <element label="HR" sequence="5" value="HR"/>
+                <element label="IT" sequence="6" value="IT"/>
+                <element label="Legal" sequence="7" value="Legal"/>
+                <element label="Professional Services" sequence="8" value="Professional Services"/>
+                <element label="Project Management" sequence="9" value="Project Management"/>
+                <element label="Project Services" sequence="10" value="Project Services"/>
+                <element label="QA" sequence="11" value="QA"/>
+                <element label="Sales" sequence="12" value="Sales"/>
+            </choice>
+        </element>
+        <element choice="1" label="Drug Test Performed" max_length="40" name="drug_test_performed" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Permitted" sequence="2" value="Not Permitted"/>
+            </choice>
+        </element>
+        <element choice="1" label="Experience at site" max_length="40" name="experience_at_site" type="string">
+            <choice>
+                <element label="&lt; 1 Month" sequence="0" value="&lt; 1 Month"/>
+                <element label="1 - 3 Months" sequence="1" value="1 - 3 Months"/>
+                <element label="3 - 6 Months" sequence="2" value="3 - 6 Months"/>
+                <element label="6 - 12 Months" sequence="3" value="6 - 12 Months"/>
+                <element label="1 - 3 Years" sequence="4" value="1 - 3 Years"/>
+                <element label="3 - 5 Years" sequence="5" value="3 - 5 Years"/>
+                <element label="5 - 10 Years" sequence="6" value="5 - 10 Years"/>
+                <element label="10 - 15 Years" sequence="7" value="10 - 15 Years"/>
+            </choice>
+        </element>
+        <element choice="1" default="&lt; 1 Month" label="Experience in Role" max_length="40" name="experience_in_role" type="string">
+            <choice>
+                <element label="&lt; 1 Month" sequence="0" value="&lt; 1 Month"/>
+                <element label="1 - 3 Months" sequence="1" value="1 - 3 Months"/>
+                <element label="3 - 6 Months" sequence="2" value="3 - 6 Months"/>
+                <element label="6 - 12 Months" sequence="3" value="6 - 12 Months"/>
+                <element label="1 - 3 Years" sequence="4" value="1 - 3 Years"/>
+                <element label="3 - 5 Years" sequence="5" value="3 - 5 Years"/>
+                <element label="5 - 10 Years" sequence="6" value="5 - 10 Years"/>
+                <element label="10 - 15 Years" sequence="7" value="10 - 15 Years"/>
+                <element label="&gt; 15 Years" sequence="8" value="&gt; 15 Years"/>
+            </choice>
+        </element>
+        <element label="Full Name" max_length="40" name="full_name" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="string">
+            <choice>
+                <element label="Male" sequence="0" value="Male"/>
+                <element label="Female" sequence="1" value="Female"/>
+            </choice>
+        </element>
+        <element label="Hours into Shift" max_length="40" name="hours_into_shift" type="string"/>
+        <element label="Immediate Supervisor" max_length="32" name="immediate_supervisor" reference="sys_user" type="reference"/>
+        <element choice="3" default="Yes" label="Jacobs Office / Field Staff" max_length="40" name="jacobs_office_field_staff" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="Joint Venture" max_length="40" name="joint_venture" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Number of employees supervised" max_length="40" name="number_of_employees_supervised" type="string"/>
+        <element label="Performance Unit" max_length="40" name="performance_unit" type="string"/>
+        <element label="Project Number" max_length="32" name="project_number" reference="pm_project" type="reference"/>
+        <element label="Reported By" max_length="32" name="reported_by" reference="sys_user" type="reference"/>
+        <element label="Second Level Supervisor" max_length="40" name="second_level_supervisor" type="string"/>
+        <element choice="1" label="Service Length in Company" max_length="40" name="service_length_in_company" type="string">
+            <choice>
+                <element label="&lt; 1 Month" sequence="0" value="&lt; 1 Month"/>
+                <element label="1 - 3 Months" sequence="1" value="1 - 3 Months"/>
+                <element label="3 - 6 Months" sequence="2" value="3 - 6 Months"/>
+                <element label="6 - 12 Months" sequence="3" value="6 - 12 Months"/>
+                <element label="1 - 3 Years" sequence="4" value="1 - 3 Years"/>
+                <element label="3 - 5 Years" sequence="5" value="3 - 5 Years"/>
+                <element label="5 - 10 Years" sequence="6" value="5 - 10 Years"/>
+                <element label="10 - 15 Years" sequence="7" value="10 - 15 Years"/>
+                <element label="&gt; 15 Years" sequence="8" value="&gt; 15 Years"/>
+            </choice>
+        </element>
+        <element choice="1" label="Shift" max_length="40" name="shift" type="string">
+            <choice>
+                <element label="Day" sequence="0" value="Day"/>
+                <element label="Night" sequence="1" value="Night"/>
+                <element label="Non Work time" sequence="2" value="Non Work time"/>
+                <element label="Overtime" sequence="3" value="Overtime"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type of Person" max_length="40" name="type_of_person" type="string">
+            <choice>
+                <element label="Jacobs Controller Field Contractor" sequence="0" value="Jacobs Controller Field Contractor"/>
+                <element label="Jacobs Controlled Office Contractor" sequence="1" value="Jacobs Controlled Office Contractor"/>
+                <element label="Jacobs Field" sequence="2" value="Jacobs Field"/>
+                <element label="Jacobs Office" sequence="3" value="Jacobs Office"/>
+                <element label="Member of the public" sequence="4" value="Member of the public"/>
+                <element label="Other Contractor" sequence="5" value="Other Contractor"/>
+            </choice>
+        </element>
+        <element label="Employer of the Affected" max_length="32" name="u_reference_2" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Job Description" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element label="Boiler Maker" sequence="0" value="Boiler Maker"/>
+                <element label="Carpenter" sequence="1" value="Carpenter"/>
+                <element label="Cement Worker" sequence="2" value="Cement Worker"/>
+                <element label="Civil Worker" sequence="3" value="Civil Worker"/>
+                <element label="E&amp;I" sequence="4" value="E&amp;I"/>
+                <element label="Equipment Operator" sequence="5" value="Equipment Operator"/>
+                <element label="Field Staff" sequence="6" value="Field Staff"/>
+                <element label="HVAC" sequence="7" value="HVAC"/>
+                <element label="Insulator" sequence="8" value="Insulator"/>
+                <element label="Iron Worker" sequence="9" value="Iron Worker"/>
+                <element label="Laborer" sequence="10" value="Laborer"/>
+                <element label="Mechanics" sequence="11" value="Mechanics"/>
+                <element label="Millwright" sequence="12" value="Millwright"/>
+                <element label="Office Staff" sequence="13" value="Office Staff"/>
+                <element label="Packaging &amp; Shipping" sequence="14" value="Packaging &amp; Shipping"/>
+                <element label="Painter" sequence="15" value="Painter"/>
+                <element label="Scaffold" sequence="16" value="Scaffold"/>
+                <element label="Visitor" sequence="17" value="Visitor"/>
+                <element label="Warehouse" sequence="18" value="Warehouse"/>
+                <element label="Welder" sequence="19" value="Welder"/>
+            </choice>
+        </element>
+    </element>
 </database>
